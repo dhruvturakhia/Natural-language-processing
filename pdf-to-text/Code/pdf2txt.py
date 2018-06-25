@@ -87,7 +87,8 @@ def filter(text = '', separators = []):
             if(len(line) > 20):
                 finalText += line
             line = ''
-        if ((31 < ord(text[i]) < 127) or (ord(text[i]) == 10)):
+        if ((64 < ord(text[i]) < 91) or (ord(text[i]) == 10) or (47 < ord(text[i]) < 58) or (96 < ord(text[i]) < 123) or (31 < ord(text[i]) < 34)\
+        or (ord(text[i]) == 63) or (44 < ord(text[i]) < 47)):
             line += text[i]
         i += 1
     return finalText
@@ -100,8 +101,8 @@ text files
 
 *** Change these according to the path in your system :)
 """
-pdfDir = "C:/Users/Dhruv/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/PDFFiles/2014 (Fifteenth) Detonation Symposium/"
-txtDir = "C:/Users/Dhruv/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/2014 (Fifteenth) Detonation Symposium/"
+pdfDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/PDFFiles/2014 (Fifteenth) Detonation Symposium/"
+txtDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/2014 (Fifteenth) Detonation Symposium/"
 
 """
 This is the main function that carries the conversion of multiple PDFs to text file
