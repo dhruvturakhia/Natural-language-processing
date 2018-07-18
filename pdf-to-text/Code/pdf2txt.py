@@ -11,6 +11,7 @@ to text files
    *****       *****
     ***         ***
 
+
     ***         ***
       ***********
 
@@ -34,13 +35,16 @@ from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 from io import StringIO
 import os
+import errno
 
 
-""" Function to convert a pdf to text using pdfminer.six
-    Input: path of the file: string
-    Output: pdf converted totext: string
+"""
+Function to convert a pdf to text using pdfminer.six
+Input: path of the file: string
+Output: pdf converted totext: string
 """
 def convert_pdf_to_txt(path):
+    pageCount = 0
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
@@ -54,7 +58,28 @@ def convert_pdf_to_txt(path):
     pagenos = set()
 
     for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, password=password,caching=caching, check_extractable=True):
+        """
+        In pdfminer.six pdfinterp.py line 801:
+        change:-
+        if 'W' in obj and 'H' in obj:
+        to:-
+        if b'W' in obj and b'H' in obj:  //'W' and 'H' need to be byte type objects and hence conversion :)
+
+
+        In pdfminer.six psparser.py line 469:
+        change:-
+        self._curtoken += six.int2byte(int(self.oct, 8))
+        self._parse1 = self._parse_string
+        return i
+        to:-
+        if(int(self.oct, 8) >= 0 and int(self.oct, 8) <= 255): //This check is necessary as it is invalid in some cases...
+            self._curtoken += six.int2byte(int(self.oct, 8))
+            self._parse1 = self._parse_string
+            return i
+        """
         interpreter.process_page(page)
+        pageCount += 1
+        print(pageCount)
 
     text = retstr.getvalue()
 
@@ -74,10 +99,10 @@ def convert_pdf_to_txt(path):
 
 def filter(text = '', separators = []):
     finalText, line = '', ''
-    for i in separators:
-        if (i in text):
-            text = text.split(i, 1)[0]
-            break;
+    # for i in separators:
+    #     if (i in text):
+    #         text = text.split(i, 1)[0]
+    #         break;
     i = 0
     while(i < len(text)):
         if (ord(text[i]) == 10 and text[i - 1] == '-'):
@@ -101,23 +126,32 @@ text files
 
 *** Change these according to the path in your system :)
 """
-pdfDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/PDFFiles/2014 (Fifteenth) Detonation Symposium/"
-txtDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/2014 (Fifteenth) Detonation Symposium/"
+pdfDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/PDFFiles/"
+txtDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/"
 
 """
 This is the main function that carries the conversion of multiple PDFs to text file
 """
-for file in os.listdir(pdfDir):
-    if(file.endswith(".pdf")):
-        print("Converting: {}........".format(file))
-        separators = ("Acknowledgments", "Acknowledgment", "ACKNOWLEDGEMENT", "References", "REFERENCES")
-        text = convert_pdf_to_txt(pdfDir + file)
+for folder in os.listdir(pdfDir):
+    for file in os.listdir(pdfDir + folder):
+        if(file.endswith(".pdf")):
+            print("Converting: {}........".format(file))
+            separators = ("Acknowledgments", "Acknowledgment", "ACKNOWLEDGEMENT", "References", "REFERENCES")
+            text = convert_pdf_to_txt(pdfDir + folder + '/' + file)
 
-        printableText = filter(text, separators)
+            printableText = filter(text, separators)
 
-        writeFileName = txtDir + file.replace(".pdf", ".txt")
-        textFile = open(writeFileName, "w")
-        textFile.write(printableText)
-        textFile.close()
+            writeFileName = txtDir + folder  +file.replace(".pdf", ".txt")
+
+            if not(os.path.exists(os.path.dirname(writeFileName))):
+                try:
+                    os.makedirs(os.path.dirname(writeFileName))
+                except OSError as exc:
+                    if(exc.errno != errno.EExist):
+                        raise
+
+            textFile = open(writeFileName, "w")
+            textFile.write(printableText)
+            textFile.close()
 
 print("Done converting PDFs")
