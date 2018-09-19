@@ -16,6 +16,8 @@ archives of energetic caves.
 import os
 
 
+SEPERATE_CORPUS = False;
+
 """
 Function to combine all textfiles in all the folders in a givendirectory
 into a corpus and store it in the mentioned path
@@ -25,32 +27,52 @@ Output: N/A
 
 *Note:- Read Path Format: Dir--->Sub-Dir(Containing the text files)--->TextFiles
 """
-def filesToCorpus(readPath, writePath):
+def filesToCorpus(readPath, writePath, sepCorpus = False):
     text = ''
-    for folder in os.listdir(readPath):
-        for file in os.listdir(readPath + folder):
-            if file.endswith(".txt"):
-                temp = ''
-                print("Adding file {} to corpus".format(file))
-                fileobj = open(path + file, "r+")
-                temp += fileobj.read()
-                text += temp
-                fileobj.close()
-    if not (os.path.exists(writePath + "corpus/")):
-        os.makedirs(writePath + "corpus/")
-    fileobj = open(path + "corpus/corpus.txt", "w")
-    print(len(text))
-    fileobj.write(text)
-    fileobj.close()
-    return;
+    if (not sepCorpus):
+        for folder in os.listdir(readPath):
+            for file in os.listdir(readPath + folder):
+                if file.endswith(".txt"):
+                    temp = ''
+                    print("Adding file {} to corpus".format(file))
+                    fileobj = open(readPath + folder + '/' + file, "r+")
+                    temp += fileobj.read()
+                    text += temp
+                    fileobj.close()
+        if not (os.path.exists(writePath + "corpus/")):
+            os.makedirs(writePath + "corpus/")
+        fileobj = open(writePath + "corpus/corpus.txt", "w")
+        print(len(text))
+        fileobj.write(text)
+        fileobj.close()
+        return;
+    else:
+        for folder in os.listdir(readPath):
+            for file in os.listdir(readPath + folder):
+                if file.endswith(".txt"):
+                    temp = ''
+                    print("Adding file {} to corpus".format(file))
+                    fileobj = open(readPath + folder + '/' + file, "r+")
+                    temp += fileobj.read()
+                    text += temp
+                    fileobj.close()
+            if not (os.path.exists(writePath + "corpus/")):
+                os.makedirs(writePath + "corpus/" + folder)
+            fileobj = open(writePath + "corpus/" + folder +".txt", "w")
+            print(len(text))
+            fileobj.write(text)
+            fileobj.close()
+            text = ''
+        return;
 
 """                End of Function              """
 
 """
-Main Code: Mention the read path and write path here and then generate the corpus 
+Main Code: Mention the read path and write path here and then generate the corpus
 """
-readPath = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/NTREM Proceedings/"
-writePath = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/"
+
+readPath = "C:/Users/shitt/Desktop/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/"
+writePath = "C:/Users/shitt/Desktop/Natural Language Processing (Prof. Chung)/Natural-language-processing/"
 
 
-filesToCorpus(readPath, writePath)
+filesToCorpus(readPath, writePath, sepCorpus = SEPERATE_CORPUS)

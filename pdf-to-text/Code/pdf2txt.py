@@ -38,6 +38,8 @@ import os
 import errno
 
 
+
+
 """
 Function to convert a pdf to text using pdfminer.six
 Input: path of the file: string
@@ -79,7 +81,6 @@ def convert_pdf_to_txt(path):
         """
         interpreter.process_page(page)
         pageCount += 1
-        print(pageCount)
 
     text = retstr.getvalue()
 
@@ -99,10 +100,10 @@ def convert_pdf_to_txt(path):
 
 def filter(text = '', separators = []):
     finalText, line = '', ''
-    # for i in separators:
-    #     if (i in text):
-    #         text = text.split(i, 1)[0]
-    #         break;
+    for i in separators:
+        if (i in text):
+            text = text.split(i, 1)[0]
+            break;
     i = 0
     while(i < len(text)):
         if (ord(text[i]) == 10 and text[i - 1] == '-'):
@@ -126,22 +127,24 @@ text files
 
 *** Change these according to the path in your system :)
 """
-pdfDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/PDFFiles/"
-txtDir = "C:/Users/shitt/Desktop/Summer Internship/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/"
+pdfDir = "C:/Users/shitt/Desktop/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/PDFFiles/"
+txtDir = "C:/Users/shitt/Desktop/Natural Language Processing (Prof. Chung)/Natural-language-processing/pdf-to-text/TextFiles/"
 
 """
 This is the main function that carries the conversion of multiple PDFs to text file
 """
+
+
 for folder in os.listdir(pdfDir):
     for file in os.listdir(pdfDir + folder):
         if(file.endswith(".pdf")):
             print("Converting: {}........".format(file))
             separators = ("Acknowledgments", "Acknowledgment", "ACKNOWLEDGEMENT", "References", "REFERENCES")
-            text = convert_pdf_to_txt(pdfDir + folder + '/' + file)
+            text = convert_pdf_to_txt(pdfDir + '/' + folder + '/' + file)
 
             printableText = filter(text, separators)
 
-            writeFileName = txtDir + folder  +file.replace(".pdf", ".txt")
+            writeFileName = txtDir + folder  + "/" +file.replace(".pdf", ".txt")
 
             if not(os.path.exists(os.path.dirname(writeFileName))):
                 try:
@@ -153,5 +156,6 @@ for folder in os.listdir(pdfDir):
             textFile = open(writeFileName, "w")
             textFile.write(printableText)
             textFile.close()
+
 
 print("Done converting PDFs")
