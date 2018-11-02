@@ -1,0 +1,311 @@
+The most of ethylene oxide derivations have positive
+HOFs values except I. The HOFs of isomers with the
+same number of nitro groups are affected by the
+positions of these groups and the values become
+larger as the number of nitro groups is increased.
+the calculated bond dissociation energies are
+larger than 200 kJ mol-1 which indicate that all the
+ethylene oxide derivations have good thermal stabilities. The values meet the request as high-density
+compound BDE  120 kJ mol-1.
+3 The calculated detonation velocity and detonation
+pressure are very helpful for enhancing detonation
+performance. The explosive performances of most of
+ethylene oxide derivations would rang up with RDX.
+It was found that oxygen balance play an important
+role to detonation performance. Considering the
+detonation performance and thermal stability II be
+regarded as the potential candidates of HEDCs. These
+results provide basic information for the molecular
+design novel high-density materials.
+Acknowledgments This study was supported by the Natural Science Foundation of Shanxi Province No. 2010021009-2 the Natural
+Science Foundation of China No. 20871077 the Research Project
+Supported by Shanxi Scholarship Council of China No. 201063 and
+the Natural Science Foundation of Shanxi Normal University.
+1. Strout DL 2002 J Phys Chem A 106816818
+2. Galbraith JM Schaefer HF III
+3. Leininger ML Sherrill CD Schaefer H 1995 J Phys Chem
+4. Ngugen MT 2003 Coord Chem Rev 24493113
+5. Wei T Zhu WL Zhang XW Li YF Xiao HM 2009 J Phys
+6. Joo YH Twamley B Garg S Shreeve JM 2008 Angew Chem
+7. Agrawal JP 1998 Prog Energy Combust Sci 24130
+8. Ding YH Inagaki S 2003 Chem Lett 32304305
+9. Aloysus KL David WB 2009 THEOCHEM 9163336
+10. Hans S 1982 Biomaterials 34195198
+11. Russell BW David SB Julle DEC Martyn CRS Jackson SW
+Nell AW 1991 Tetrahcdron Lett 3222852288
+12. Frisch MJ Trucks GW Schlegel HB Scuseria GE Robb MA
+Cheeseman JR Montgomery JA Jr Vreven T Kudin KN Burant
+JC Millam JM Iyengar SS Tomasi J Barone V Mennucci B
+Cossi M Scalmani G Rega N Petersson GA Nakatsuji H Hada
+M Ehara M Toyota K Fukuda R Hasegawa J Ishida M
+Nakajima T Honda Y Kitao O Nakai H Klene M Li X Knox
+JE Hratchian HP Cross JB Adamo C Jaramillo J Gomperts R
+Stratmann RE Yazyev O Austin AJ Cammi R Pomelli C
+Ochterski JW Ayala PY Morokuma K Voth GA Salvador P
+Dannenberg JJ Zakrzewski VG Dapprich S Daniels AD Strain
+MC Farkas O Malick DK Rabuck AD Raghavachari K
+Foresman JB Ortiz JV Cui Q Baboul AG Clifford S
+Cioslowski J Stefanov BB Liu G Liashenko A Piskorz P
+Komaromi I Martin RL Fox DJ Keith T Al-Laham MA Peng
+CY Nanayakkara A Challacombe M Gill PMW Johnson B
+Chen W Wong MW Gonzalez C Pople JA 2004 Gaussian 03
+revision C 02. Gaussian Inc. Wallingford
+13. Woon DE Dunning TH 1993 J Chem Phys 9813581371
+14. Hahre WJ 1976 Mol Orbit Theory 9399406
+15. Chen ZX Xiao JM Xiao HM Chiu YN 1999 J Phys Chem A
+16. Owens FJ 1996 J Mol Struct THEOCHEM 37011168
+17. Mills I Cvitas T Homann K Kallay N Kuchitsu K 1988
+Quantities units and symbols in physical chemistry. Blackwell
+Scientic Publications Oxford
+18. Blanksby SJ Ellison GB 2003 Acc Chem Res 36255263
+19. Rice BM Hare JJ Byrd EFC 2007 J Phys Chem A 111
+20. Politzer P Martinez J Murray JS Concha MC Toro-Labbe A
+2009 Mol Phys 1071920952101
+21. Bulat F Toro-Labbe A Brinck T Murray JS Politzer P 2010 J
+Mol Model 161116791691
+22. Jursic BS 1997 J Chem Phys 10625552558
+23. Fan JF Xiao HM 1996 J Mol Struct THEOCHEM 365225229
+24. Harris NJ Lannertsma K 1997 J Am Chem Soc 11965836589
+25. Stine JR 1990 J Energy Mater 84173
+26. Keshavarz MH Pouretedal HR 2005 J Hazard Mater 1242733
+27. Kamlet MJ Jocobs SJ 1968 J Chem Phys 4836853692
+28. Wei T Zhu WH Zhang J Xiao HM 2010 J Hazard Mater
+29. Persson PA Holmberg R Lee J 1993 Rock blasting and
+explosives engineering. CRC Press Boca Raton
+30. Politzer P Murray JS 2011 Cent Eur J Energy Mater 83J Mol Model 2012 1836953704
+DOI 10.1007s00894-012-1367-6
+Density functional calculations for a high energy density
+compound of formula C6H6nNO2n
+Wei-Jie Chi  Lu-Lin Li  Bu-Tong Li  Hai-Shun Wu
+Received 21 December 2011  Accepted 23 January 2012  Published online 1 March 2012
+ Springer-Verlag 2012
+Abstract A series of polynitroprismanes C6H6nNO2n
+n016 intended for use as high energy density compounds
+HEDCs were designed computationally. Their electronic
+structures heats of formation interactions between nitro
+groups specific enthalpies of combustion bond dissociation
+energies and explosive performances detonation velocities
+and detonation pressures were calculated using density
+functional theory DFT with the 6-311 G basis set. The
+results showed that all of the polynitroprismanes had high
+positive heats of formation that increased with the number
+of substitutions for the prismane derivatives while the specific enthalpy of combustion decreased as the number of
+nitro groups increased. In addition the range of enthalpy of
+combustion reducing is getting smaller. Interactions between ortho vicinal groups deviate from the group additivity rule and decrease as the number of nitro groups
+increases. In terms of thermodynamic stability all of the
+polynitroprismanes had higher bond dissociation energies
+BDEs than RDX and HMX. Detonation velocities and
+detonation pressures were estimated using modified KamletJacobs equations based on the heat of detonation Q and
+the theoretical density of the molecule . It was found that
+ D and P are strongly linearly related to the number of
+nitro groups. Taking both their energetic properties and
+thermal stabilities into account pentanitroprismane and hexanitroprismane are potential candidate HEDCs.
+Keywords Polynitroprismanes . Density functional theory .
+Heats of formation . High energy density compound
+W.-J. Chi  L.-L. Li  B.-T. Li   H.-S. Wu
+School of Chemistry and Material Science
+Shanxi Normal University
+e-mail butong.leegmail.com
+High energy density compounds HEDCs have been widely used for both military and civilian applications 14. In
+the last few decades extensive theoretical studies have been
+performed on pure nitrogen clusters because an all-nitrogen
+molecule Nx can undergo the reaction Nxx2N2 which
+1 or more per nitrogen atom
+can exothermic by 50 kcal mol
+making such clusters potential HEDCs 57. However
+theoretical studies have shown that many Nx molecules are
+not easily synthesized and are insufficiently stable to be
+practical HEDCs 810. Besides these pure nitrogen clusters some other heterocyclic compounds have also attracted
+considerable attention as possible HEDCs 1113. The
+characteristic feature of such heterocyclic compounds is that
+they release a great deal of energy upon the combustion of
+their carbon backbones or the release of cage strain compared to traditional and modern energetic compounds. Besides the interest in this characteristic of heterocyclic
+compounds other unique features of such molecules have
+also attracted considerable attention such as high densities
+and oxygen contents and good thermal stabilities 1418.
+However when attempting to identify new HEDCs experimental synthesis is hazardous to humans and the environment. On the other hand computer simulation provides an
+effective way to screen for promising explosives without
+having to deal with such dangers so it has been used to
+design various new energetic materials. Therefore when
+searching for new HEDCs researchers generally perform
+molecular design via computational methods and then use
+the results of that modeling to synthesize new and improved
+Among the various types of HEDCs organic cage compounds have attracted particular attention. CL-20 hexanitrohexaazaisowurtzitane 19 and polynitrocubane 20 are
+J Mol Model 2012 1836953704
+some well-known examples of cage compounds and the
+successful synthesis of such compounds is generally
+regarded as a breakthrough in the history of explosives.
+Recently highly symmetrical polyhedral hydrocarbons have
+attracted special interest from chemists because of their
+highly strained structures 21. Lately polyisocyanoprismanes and polyazidoprismanes have been studied by Xu
+Wen-Guo et al. 22 23. In addition azaprismanes were
+studied by Politzer et al. in 1989 24 25. Their studies
+show that these compounds could be used as high energy
+Prismane itself has been synthesized and fully characterized while several substituted derivatives of this hydrocarbon have also been characterized see Fig. 1 for the structure
+of prismane and its derivatives. Prismane is a hydrocarbon
+with a large ring strain energy of 606.9 kJ mol
+important requirement of HEDCs. Therefore we selected
+the cage compound prismane D3h-C6H6 as the basis for
+designing new high energy density compounds.
+Nitro compounds an important class of HEDCs have also
+long attracted attention from researchers due to their ability to
+endure the high temperatures and low pressures encountered
+in space 26. Hence in the present work the H atoms in
+prismane were systematically replaced with nitro groups generating the series of molecules C6H6nNO2n n016. The
+main difference between the nitro isocyano and azido functional groups is the amount of oxygen present. As far as
+combustion is concerned the nitro group has an advantage.
+In addition adding a nitro substituent can improve the detonation pressure detonation velocity and molecular density of
+the compound more effectively than adding either isocyano
+and azido groups. Thus in the work described in this paper
+the molecular electronic geometries heats of formation interactions between nitro groups bond dissociation energies
+specific enthalpies of combustion and detonation performances of these polynitroprismanes were studied in detail at the
+B3LYP6-311 G level. Our results should provideuseful
+information for the laboratory synthesis of polynitroprismanes
+and the development of novel HEDCs.
+Computational methods and details
+The geometries of the polynitroprismanes were fully optimized without any symmetry restriction using density functional theory DFT at the B3LYP level with the 6-311 G
+basis set in the Gaussian 03 software package 27. Harmonic vibrational and natural bond orbital NBO 28
+analyses were then performed at the same level of theory
+to confirm that the structures obtained corresponded to
+minima and to determine the zero-point vibrational energy
+The heats of formation HOFs of the compounds of
+interest are needed to calculate their detonation energies.
+In previous papers isodesmic reactions have been very
+successfully employed to estimate the HOFs from the total
+energies obtained from ab initio calculations 29 30.
+Therefore in our work we also designed isodesmic reactions in which the basic structural unit of prismane was
+retained but big molecules were changed into small ones
+in order to obtain HOFs.
+The isodesmic reactions used to calculate the HOFs of
+the polynitroprismanes at 298 K were as follows
+C6H6nNO2n  nCH4  C6H6  nCH3NO2nn  1  6
+For each isodesmic reaction the HOF of the reaction
+H298 at 298 K can be calculated using the following
+Here Hfp and HfR are the heats of formation of the
+reactants and products at 298 K respectively. The experimental HOFs of the reference compounds CH4 CH3NO2
+and C6H6 are available which means that the HOFs of the
+polynitroprismanes can be calculated when the heat of reaction H298 is known. H298 can be calculated using the
+H298  E  ZPE  HT  nRT
+Here E is the difference between the total energies of
+the reactants and products at 0 K. ZPE is the difference
+between the zero-point energies of the reactants and products. HT is the thermal correction from 0 to 298 K. nRT is
+the work term which equals zero here.
+Using the HOFs of the polynitroprismanes calculated
+from Eqs. 2 and 3 it is a straightforward process to determine the enthalpy of combustion using Eq. 4
+The enthalpies of formation of carbon dioxide and water
+were also obtained from the NIST Chemistry Book website
+these values are 393.52 and 285.83 kJ mol
+Dividing the enthalpies of combustion obtained from Eq. 4 by
+the respective molecular masses yields the specific enthalpies
+To determine the strength of the interactions between the
+nitro groups we computed the energy of disproportionation
+of the isodesmic reaction
+mC6H5NO2 ! m  1C6H6  C6H6mNO2m
+The strength of bonding which can be evaluated
+using the bond dissociation energy BDE
+J Mol Model 2012 1836953704
+Fig. 1 Molecular framework
+and atomic numbering for
+prismane and its derivatives
+to understanding chemical processes 31.
+The thermal stabilities of the compounds of interest
+were evaluated by calculating the BDE of the trigger
+bond. At 0 K the homolytic bond dissociation energy
+J Mol Model 2012 1836953704
+can be obtained using Eq. 6
+BDEA  B  EA  EB  EA  B
+The zero-point energy ZPE corrected BDE can be cal
+culated via Eq. 7
+Here ZPE is the difference between the ZPE of the
+products and that of the reactants.
+The loading density 0 is an important parameter to
+consider when HEDCs are designed. However 0 cannot
+be obtained for compounds that have not been synthesized.
+Therefore in previous studies 32 33 0 was replaced by
+the theoretical density  because 0 is very close to .
+Moreover an electrostatic interaction correction that improves
+the accuracy of the predicted crystal density was also studied
+by Politzer et al. 25 and their results showed that the
+electrostatic interaction correction is useful for improving
+the accuracy of the crystal density for some high energy
+density compounds but not all of them. In our work we
+needed molecular volume data to calculate the densities of
+the polynitroprismanes. The molecular volume was defined as
+the volume inside a contour of density 0.001 electronsbohr3
+which was evaluated using Monte Carlo integration. This
+method has frequently been applied to HEDCs in previous
+For each compound of interest the explosive reaction was
+identified by applying the most exothermic principle that is
+all of the N atoms turn into N2 while the O atoms initially react
+with H atoms to give H2O before forming CO2 with the C atom.
+If the number of O atoms present in the molecule is greater than
+the number needed to oxidize all of the H and C atoms the
+redundant O atoms will combine to form O2. On the other
+hand if the number of O atoms is insufficient to allow full
+oxidation of the H and C atoms the remaining H atoms will be
+incorporated into H2O while the remaining C atoms will exist
+as solid-state C. Halogen atoms form hydrogen halides with
+hydrogen atoms. Using the values of  and Q the heat of
+detonation which is evaluated from the difference between
+the HOFs of the products and the explosive via the principle
+of exothermic reactions see Table 5 the fundamental detonation performance the detonation velocity and detonation pressure were obtained by the following KamletJacobs equations
+D  101NM 12Q12121  130
+Here D is the detonation velocity P is the detonation
+pressure N is the moles of gaseous detonation products per
+J Mol Model 2012 1836953704
+gram of explosive and M is the average molecular weight of
+the gaseous products.
+Results and discussion
+Electronic structure and stability
+Figure 1 shows the numbering scheme for the polynitroprismanes. The numbering system used was such that the nitro
+groups were labeled with the smallest numbers possible that
+were still consistent with the numbering pattern shown in
+Fig. 1. There are a total of 11 structural isomers for these
+polynitroprismanes. Table 1 lists the highest occupied molecular orbital HOMO and the lowest unoccupied molecular
+orbital LUMO energies the energy gaps ELUMOHOMO
+and the Wiberg bond indices for CNO2 bonds which were
+obtained by NBO analyses of prismane and the polynitroprismanes at the B3LYP6-311 G level. From Table 1 it is clear
+that the ELUMOHOMO values decrease as the number of nitro
+groups increases. It is interesting to note that all of the polynitroprismanes have lower ELUMOHOMO values than the
+unsubstituted prismane. Note that the ELUMOHOMO value
+of the 12-bisnitroprismane is slightly smaller than that of its
+isomer 15-bisnitroprismane. This shows that the 15-disnitroprismane is more stable than the 12-bisnitroprismane. It is
+also worth noting that stability refers to the stability of the
+compound to photoinitiated electron-transfer processes.
+The fifth column in Table 1 shows the Wiberg bond indices
+for CNO2 bonds. This is a theoretical index of the degree of
+bonding between the two atoms. It can therefore be used as a
+Table 1 Calculated HOMO and LUMO energies a.u energy gaps
+ELUMOHOMO average Wiberg bond indices for CNO2 bonds PCN
+1 of polynitroprismanes at the B3LYP6and bond energies kJ mol
+11214151231241261234124512345123456C6H5
+a 1- denotes 1-nitroprismane 12- denotes 12-isocyanoprismane and
+measure of the overall strength of the bond between two
+atoms on the whole the larger the Wiberg bond index the
+stronger the bond. In previous studies 36 37 the CNO2
+bond in a nitro derivative was found to have the smallest
+Wiberg bond index in a of any of the bonds in that derivative.
+Therefore we have only listed the CNO2 bond indices in
+Table 1. In addition the energies of the CNO2 bonds were
+calculated and are listed in this table. From Table 1 1nitroprismane has the highest bond order whereas
+123456-hexanitroprismane has the lowest bond order as
+the number of nitro groups in the molecule increases the
+Wiberg bond index decreases and thus the stability of the
+molecule decreases. Hence according to the principle of the
+smallest bond order PSBO 38 hexanitroprismane has the
+smallest bond order i.e. bond index of 0.8876 meaning that
+it is very sensitive and relatively unstable to thermolysis. It is
+clear that the energies of the CNO2 bonds decrease as the
+bond index declines. This result also shows that the PSBO is a
+reliable estimator of the bond dissociation energy.
+Looking at the ELUMOHOMO and Wiberg bond index
+values it is interesting to note that the PCN of 15-dinitroprismane is relatively low 0.9290 but that it has a high
+ELUMOHOMO. On the other hand 14-dinitroprismane has
+a high bond order of 0.9304 but a lower ELUMOHOMO
+value than that of 15-dinitroprismane. This result shows
+that the thermal stability of a polynitroprismane is not solely
+related to its bond index or ELUMOHOMO value.
+Heat of formation and enthalpy of combustion
+The HOF is the most practical parameter for experimentalists to use to determine the energetic properties of a chemical system. The higher the HOF the greater the energy
+stored by the molecule. However obtaining HOFs of
+HEDCs experimentally is an extremely ha
